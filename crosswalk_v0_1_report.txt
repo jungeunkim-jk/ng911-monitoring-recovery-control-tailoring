@@ -1,0 +1,215 @@
+crosswalk comparison report
+Script: compare_csf_80053.py version 0.1, SHA-256 fef2436dc9b9a2dcda3218fcb06d8d1d069430b676306f397dd3742905b3c1d6
+Run: 2026-11-14T16:52:02-05:00
+Operator: Jungeun Kim
+Environment: Python 3.12.4, openpyxl 3.1.2, Windows 11
+Export file: csf2.xlsx, SHA-256 6d4c298e8a026dd40ab76eda4575aaa19b4c641d7291d1b1f164ea5fc9130780
+Export Generated Date: 2026-11-10 17:53:49.442000
+Reference label used: SP 800-53 Rev 5.2.0
+Mapping file: mapping_input.csv, SHA-256 b2fcf016568d5cdaeba06debd3a5efbb0ec4ea44d425396e212e9a7c2280bc8c
+
+Per-item comparison
+==============================================================================
+Item 161  (STA-040.2 section 5.6.1)  Time synchronization to the NG9-1-1 time server
+  CSF entries (REF-013.1): PR.PS-01 weak; PR.PS-04 weak
+  Controls reached through the CSF references (18): AU-2, AU-3, AU-6, AU-7, AU-11, AU-12, CM-1, CM-2, CM-3, CM-4, CM-5, CM-6, CM-7, CM-8, CM-9, CM-10, CM-11, SA-15(13)
+  Direct reading: AU-8, SC-45, SC-45(1)
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: AU-8, SC-45, SC-45(1)
+      AU-8 is referenced by: no Subcategory in the export
+      SC-45 is referenced by: no Subcategory in the export
+      SC-45(1) is referenced by: no Subcategory in the export
+
+Item 162  (STA-040.2 section 5.6.2)  Logging applications and device clocks synchronized
+  CSF entries (REF-013.1): PR.PS-01 weak
+  Controls reached through the CSF references (11): CM-1, CM-2, CM-3, CM-4, CM-5, CM-6, CM-7, CM-8, CM-9, CM-10, CM-11
+  Direct reading: AU-8, SC-45(1)
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: AU-8, SC-45(1)
+      AU-8 is referenced by: no Subcategory in the export
+      SC-45(1) is referenced by: no Subcategory in the export
+
+Item 163  (STA-040.2 section 5.6.2)  Logging sufficient to trace and correlate events
+  CSF entries (REF-013.1): PR.PS-04 strong; DE.CM-09 strong; DE.CM-01 weak
+  Controls reached through the CSF references (21): AC-2, AC-4, AC-9, AU-2, AU-3, AU-6, AU-7, AU-11, AU-12, CA-7, CM-3, CM-6, CM-10, CM-11, SA-15(13), SC-5, SC-7, SC-34, SC-35, SI-4, SI-7
+  Direct reading: AU-2, AU-3, AU-12, AU-6(3), AC-6(9)
+    reached: AU-2, AU-3, AU-12
+    base control reached, enhancement not listed: AU-6(3)
+    not reached: AC-6(9)
+      AC-6(9) is referenced by: no Subcategory in the export
+
+Item 164  (STA-040.2 section 5.6.2)  Log review at least weekly
+  CSF entries (REF-013.1): PR.PS-04 strong; DE.CM-09 strong; DE.CM-01 weak
+  Controls reached through the CSF references (21): AC-2, AC-4, AC-9, AU-2, AU-3, AU-6, AU-7, AU-11, AU-12, CA-7, CM-3, CM-6, CM-10, CM-11, SA-15(13), SC-5, SC-7, SC-34, SC-35, SI-4, SI-7
+  Direct reading: AU-6, AU-6(1), AU-7
+    reached: AU-6, AU-7
+    base control reached, enhancement not listed: AU-6(1)
+    not reached: none
+
+Item 165  (STA-040.2 section 5.6.2)  Logs protected from deletion or modification
+  CSF entries (REF-013.1): PR.DS strong
+  Controls reached through the CSF references (0): none
+  Direct reading: AU-9, AU-9(4)
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: AU-9, AU-9(4)
+      AU-9 is referenced by: PR.DS-10
+      AU-9(4) is referenced by: no Subcategory in the export
+  Note: PR.DS is a Category; its Category row lists 0 SP 800-53 Rev 5.2.0 references; Subcategories not expanded
+
+Item 166  (STA-040.2 section 5.6.2)  Log retention per local requirements
+  CSF entries (REF-013.1): GV.PO-01 strong; GV.OC-03 weak
+  Controls reached through the CSF references (22): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PM-28, PS-1, PT, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: AU-11, AU-4
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: AU-11, AU-4
+      AU-11 is referenced by: PR.PS-04
+      AU-4 is referenced by: no Subcategory in the export
+  In the families of the direct reading (AU), the CSF references reach only: AU-1
+
+Item 167  (STA-040.2 section 5.6.4)  Defined review cycle for security monitoring systems
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: SI-4, CA-7
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: SI-4, CA-7
+      SI-4 is referenced by: DE.AE-02, DE.AE-03, DE.CM-01, DE.CM-06, DE.CM-09, ID.IM-01, ID.IM-02, ID.IM-03, ID.RA-01, PR.DS-01, PR.DS-02, PR.DS-10
+      CA-7 is referenced by: DE.AE-02, DE.AE-03, DE.CM-01, DE.CM-02, DE.CM-03, DE.CM-06, DE.CM-09, ID.IM-01, ID.IM-02, ID.IM-03, ID.RA-01, ID.RA-07
+  In the families of the direct reading (CA, SI), the CSF references reach only: CA-1, SI-1
+
+Item 168  (STA-040.2 section 5.6.5)  Cybersecurity incident response plan
+  CSF entries (REF-013.1): GV.PO-01 strong; RS.MA-01 weak
+  Controls reached through the CSF references (25): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, IR-6, IR-7, IR-8, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1, SR-3, SR-8
+  Direct reading: IR-8, IR-4, IR-1
+    reached: IR-8, IR-1
+    base control reached, enhancement not listed: none
+    not reached: IR-4
+      IR-4 is referenced by: DE.AE-02, DE.AE-03, DE.AE-06, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, RC.CO-03, RC.CO-04, RC.RP-01, RC.RP-02, RC.RP-06, RS.AN-03, RS.AN-06, RS.AN-07, RS.AN-08, RS.CO-02, RS.CO-03, RS.MA-02, RS.MA-03, RS.MA-04, RS.MA-05, RS.MI-01, RS.MI-02
+
+Item 169  (STA-040.2 section 5.7)  Business continuity and disaster recovery and incident response plans
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: CP-2, IR-8
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: CP-2, IR-8
+      CP-2 is referenced by: ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, PR.IR-02, RC.CO-04, RC.RP-03
+      IR-8 is referenced by: DE.AE-03, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, RC.RP-01, RC.RP-02, RC.RP-04, RC.RP-06, RS.AN-08, RS.MA-01, RS.MA-05
+  In the families of the direct reading (CP, IR), the CSF references reach only: CP-1, IR-1
+
+Item 170  (STA-040.2 section 5.7)  Plans kept offline and accessible to recovery teams
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: CP-2, IR-8
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: CP-2, IR-8
+      CP-2 is referenced by: ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, PR.IR-02, RC.CO-04, RC.RP-03
+      IR-8 is referenced by: DE.AE-03, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, RC.RP-01, RC.RP-02, RC.RP-04, RC.RP-06, RS.AN-08, RS.MA-01, RS.MA-05
+  In the families of the direct reading (CP, IR), the CSF references reach only: CP-1, IR-1
+
+Item 171  (STA-040.2 section 5.7)  Plans reviewed at least annually
+  CSF entries (REF-013.1): GV.PO-02 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: CP-2, IR-8
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: CP-2, IR-8
+      CP-2 is referenced by: ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, PR.IR-02, RC.CO-04, RC.RP-03
+      IR-8 is referenced by: DE.AE-03, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, RC.RP-01, RC.RP-02, RC.RP-04, RC.RP-06, RS.AN-08, RS.MA-01, RS.MA-05
+  In the families of the direct reading (CP, IR), the CSF references reach only: CP-1, IR-1
+
+Item 172  (STA-040.2 section 5.7.1)  Procedure on what forensic evidence to capture and preserve
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: IR-4, IR-8, AU-11
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: IR-4, IR-8, AU-11
+      IR-4 is referenced by: DE.AE-02, DE.AE-03, DE.AE-06, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, RC.CO-03, RC.CO-04, RC.RP-01, RC.RP-02, RC.RP-06, RS.AN-03, RS.AN-06, RS.AN-07, RS.AN-08, RS.CO-02, RS.CO-03, RS.MA-02, RS.MA-03, RS.MA-04, RS.MA-05, RS.MI-01, RS.MI-02
+      IR-8 is referenced by: DE.AE-03, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, RC.RP-01, RC.RP-02, RC.RP-04, RC.RP-06, RS.AN-08, RS.MA-01, RS.MA-05
+      AU-11 is referenced by: PR.PS-04
+  In the families of the direct reading (AU, IR), the CSF references reach only: AU-1, IR-1
+
+Item 173  (STA-040.2 section 5.7.1)  Procedure on how to capture forensic evidence
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: IR-4, IR-5, AU-9
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: IR-4, IR-5, AU-9
+      IR-4 is referenced by: DE.AE-02, DE.AE-03, DE.AE-06, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, RC.CO-03, RC.CO-04, RC.RP-01, RC.RP-02, RC.RP-06, RS.AN-03, RS.AN-06, RS.AN-07, RS.AN-08, RS.CO-02, RS.CO-03, RS.MA-02, RS.MA-03, RS.MA-04, RS.MA-05, RS.MI-01, RS.MI-02
+      IR-5 is referenced by: DE.AE-03, RS.MA-02, RS.MA-03, RS.MA-04
+      AU-9 is referenced by: PR.DS-10
+  In the families of the direct reading (AU, IR), the CSF references reach only: AU-1, IR-1
+
+Item 174  (STA-040.2 section 5.7.1)  Procedure for chain of custody of forensic evidence
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: IR-4, IR-8, AU-10
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: IR-4, IR-8, AU-10
+      IR-4 is referenced by: DE.AE-02, DE.AE-03, DE.AE-06, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, RC.CO-03, RC.CO-04, RC.RP-01, RC.RP-02, RC.RP-06, RS.AN-03, RS.AN-06, RS.AN-07, RS.AN-08, RS.CO-02, RS.CO-03, RS.MA-02, RS.MA-03, RS.MA-04, RS.MA-05, RS.MI-01, RS.MI-02
+      IR-8 is referenced by: DE.AE-03, DE.AE-08, ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, RC.RP-01, RC.RP-02, RC.RP-04, RC.RP-06, RS.AN-08, RS.MA-01, RS.MA-05
+      AU-10 is referenced by: no Subcategory in the export
+  In the families of the direct reading (AU, IR), the CSF references reach only: AU-1, IR-1
+
+Item 175  (STA-040.2 section 5.7.2.2)  Documented backup plan
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: CP-9, CP-2
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: CP-9, CP-2
+      CP-9 is referenced by: PR.DS-01, PR.DS-10, PR.DS-11, RC.RP-03
+      CP-2 is referenced by: ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, PR.IR-02, RC.CO-04, RC.RP-03
+  In the families of the direct reading (CP), the CSF references reach only: CP-1
+
+Item 176  (STA-040.2 section 5.7.2.2)  Documented recovery procedures
+  CSF entries (REF-013.1): GV.PO-01 strong
+  Controls reached through the CSF references (20): AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+  Direct reading: CP-10, CP-2
+    reached: none
+    base control reached, enhancement not listed: none
+    not reached: CP-10, CP-2
+      CP-10 is referenced by: RC.RP-01, RC.RP-02, RC.RP-05
+      CP-2 is referenced by: ID.IM-01, ID.IM-02, ID.IM-03, ID.IM-04, PR.IR-02, RC.CO-04, RC.RP-03
+  In the families of the direct reading (CP), the CSF references reach only: CP-1
+
+Item 177  (STA-040.2 section 5.7.2.2)  Backup plan tested at least annually
+  CSF entries (REF-013.1): PR.DS-11 strong
+  Controls reached through the CSF references (2): CP-6, CP-9
+  Direct reading: CP-9(1), CP-9(2), CP-4
+    reached: none
+    base control reached, enhancement not listed: CP-9(1), CP-9(2)
+    not reached: CP-4
+      CP-4 is referenced by: ID.IM-02, RC.RP-03
+
+References used (SP 800-53 Rev 5.2.0), by CSF entry
+==============================================================================
+DE.CM-01: AC-2, AU-12, CA-7, CM-3, SC-5, SC-7, SI-4
+DE.CM-09: AC-4, AC-9, AU-12, CA-7, CM-3, CM-6, CM-10, CM-11, SC-34, SC-35, SI-4, SI-7
+GV.OC-03: AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PM-28, PS-1, PT, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+GV.PO-01: AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+GV.PO-02: AC-1, AT-1, AU-1, CA-1, CM-1, CP-1, IA-1, IR-1, MA-1, MP-1, PE-1, PL-1, PM-1, PS-1, PT-1, RA-1, SA-1, SC-1, SI-1, SR-1
+PR.DS: none
+PR.DS-11: CP-6, CP-9
+PR.PS-01: CM-1, CM-2, CM-3, CM-4, CM-5, CM-6, CM-7, CM-8, CM-9, CM-10, CM-11
+PR.PS-04: AU-2, AU-3, AU-6, AU-7, AU-11, AU-12, SA-15(13)   [SP 800-53 Rev 5.1.1 differs: only in SP 800-53 Rev 5.2.0: SA-15(13); only in SP 800-53 Rev 5.1.1: none]
+RS.MA-01: IR-6, IR-7, IR-8, SR-3, SR-8
+
+Summary
+==============================================================================
+Items: 17
+Items with at least one direct-reading control reached (or its base control): 4 (163, 164, 168, 177)
+Items with no direct-reading control reached: 13 (161, 162, 165, 166, 167, 169, 170, 171, 172, 173, 174, 175, 176)
+  of which the CSF references reach only the -1 control in the families of the direct reading: 10 (166, 167, 169, 170, 171, 172, 173, 174, 175, 176)
+Direct-reading assignments: 44; reached 7; base control reached 4; not reached 33
+Direct-reading base controls referenced by no Subcategory in the export: AU-4, AU-8, AU-10, SC-45
+Direct-reading control enhancements referenced by no Subcategory in the export: AC-6(9), AU-9(4), SC-45(1)
+  (the export lists 17 control enhancements in total under SP 800-53 Rev 5.2.0: CM-7(2), CM-7(4), CM-7(5), CM-7(9), CP-2(8), MA-3(6), PM-30(1), SA-10(1), SA-10(3), SA-11(2), SA-15(7), SA-15(8), SA-15(13), SA-17(6), SC-3(1), SC-39(1), SI-2(7))

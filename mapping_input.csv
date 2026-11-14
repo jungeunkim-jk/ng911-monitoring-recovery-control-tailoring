@@ -1,0 +1,23 @@
+# Input for compare_csf_80053.py. One row per checklist item.,,,,
+# item and sta040_section: NENA-REF-012.1-2025 item number and NENA-STA-040.2-2024 section.,,,,
+# topic: short paraphrase by the author (not the text of the requirement).,,,,
+# csf_ref013: NIST CSF 2.0 entries assigned in NENA-REF-013.1-2025, each followed by strong or weak," separated by "";"".",,
+# direct_controls: SP 800-53 controls assigned by the author from the control text," separated by "";"".",,,
+item,sta040_section,topic,csf_ref013,direct_controls
+161,5.6.1,Time synchronization to the NG9-1-1 time server,PR.PS-01 weak; PR.PS-04 weak,AU-8; SC-45; SC-45(1)
+162,5.6.2,Logging applications and device clocks synchronized,PR.PS-01 weak,AU-8; SC-45(1)
+163,5.6.2,Logging sufficient to trace and correlate events,PR.PS-04 strong; DE.CM-09 strong; DE.CM-01 weak,AU-2; AU-3; AU-12; AU-6(3); AC-6(9)
+164,5.6.2,Log review at least weekly,PR.PS-04 strong; DE.CM-09 strong; DE.CM-01 weak,AU-6; AU-6(1); AU-7
+165,5.6.2,Logs protected from deletion or modification,PR.DS strong,AU-9; AU-9(4)
+166,5.6.2,Log retention per local requirements,GV.PO-01 strong; GV.OC-03 weak,AU-11; AU-4
+167,5.6.4,Defined review cycle for security monitoring systems,GV.PO-01 strong,SI-4; CA-7
+168,5.6.5,Cybersecurity incident response plan,GV.PO-01 strong; RS.MA-01 weak,IR-8; IR-4; IR-1
+169,5.7,Business continuity and disaster recovery and incident response plans,GV.PO-01 strong,CP-2; IR-8
+170,5.7,Plans kept offline and accessible to recovery teams,GV.PO-01 strong,CP-2; IR-8
+171,5.7,Plans reviewed at least annually,GV.PO-02 strong,CP-2; IR-8
+172,5.7.1,Procedure on what forensic evidence to capture and preserve,GV.PO-01 strong,IR-4; IR-8; AU-11
+173,5.7.1,Procedure on how to capture forensic evidence,GV.PO-01 strong,IR-4; IR-5; AU-9
+174,5.7.1,Procedure for chain of custody of forensic evidence,GV.PO-01 strong,IR-4; IR-8; AU-10
+175,5.7.2.2,Documented backup plan,GV.PO-01 strong,CP-9; CP-2
+176,5.7.2.2,Documented recovery procedures,GV.PO-01 strong,CP-10; CP-2
+177,5.7.2.2,Backup plan tested at least annually,PR.DS-11 strong,CP-9(1); CP-9(2); CP-4
